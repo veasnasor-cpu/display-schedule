@@ -220,11 +220,7 @@ export const useScheduleStore = defineStore('schedule', {
       this.error = null
 
       const candidateUrls = [
-        import.meta.env?.VITE_API_URL,
-        '/api/auth/schdeule',
-        'https://dg.serc.gov.kh/api/auth/schdeule',
-        'http://localhost:8082/api/auth/schdeule',
-        'http://[::1]:8082/api/auth/schdeule',
+        import.meta.env?.VITE_API_URL
       ].filter(Boolean)
 
       let success = false
