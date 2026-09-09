@@ -476,7 +476,7 @@
 
 /* Header - SERC Royal Blue & Gold Palette */
 .serc-header {
-  background: rgba(20, 23, 76, 0.92);
+  background: #162c81;
   border: 1.5px solid rgba(47, 49, 145, 0.75);
   border-radius: 1.25rem;
   padding: 1.25rem 1.75rem 0.85rem;
@@ -829,7 +829,7 @@
 
 /* Datetime card */
 .datetime-card {
-  background: rgba(14, 16, 52, 0.95);
+  background: #162c81;
   border: 1px solid rgba(47, 49, 145, 0.65);
   border-radius: 0.75rem;
   padding: 0.55rem 0.75rem;
@@ -839,7 +839,7 @@
 }
 
 .card-active-neon {
-  background: #280812 !important;
+  background: #162c81 !important;
   border: 1.5px solid rgba(244, 63, 94, 0.85) !important;
   box-shadow: 0 0 14px rgba(225, 29, 72, 0.45) !important;
 }
